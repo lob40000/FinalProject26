@@ -1,170 +1,420 @@
-|   x-coordinate | Character   |   y-coordinate |
-|----------------|-------------|----------------|
-|              9 | _           |              4 |
-|             27 | /           |              2 |
-|             13 | _           |              4 |
-|             24 |             |              5 |
-|             18 | _           |              1 |
-|             10 |             |              0 |
-|             16 |             |              3 |
-|             19 | /           |              2 |
-|              8 |             |              1 |
-|              0 |             |              2 |
-|             13 |             |              5 |
-|             16 | _           |              2 |
-|              4 | /           |              2 |
-|             27 |             |              4 |
-|              7 | |           |              2 |
-|              7 |             |              5 |
-|              5 | _           |              0 |
-|              8 |             |              5 |
-|             22 |             |              5 |
-|             15 | /           |              3 |
-|              5 |             |              5 |
-|             10 | _           |              2 |
-|              4 |             |              1 |
-|             11 | _           |              2 |
-|              6 |             |              3 |
-|             26 |             |              5 |
-|             27 |             |              0 |
-|             21 | _           |              4 |
-|              0 |             |              0 |
-|              6 |             |              1 |
-|             19 | /           |              4 |
-|             22 | _           |              4 |
-|              3 | _           |              3 |
-|             21 | _           |              1 |
-|             20 | /           |              3 |
-|              9 |             |              2 |
-|              1 |             |              5 |
-|             14 | _           |              0 |
-|             25 |             |              3 |
-|             19 |             |              3 |
-|             14 |             |              1 |
-|             13 |             |              2 |
-|             18 | _           |              4 |
-|              8 | /           |              2 |
-|              8 |             |              3 |
-|             21 | _           |              0 |
-|             25 | /           |              2 |
-|             12 |             |              0 |
-|             25 |             |              5 |
-|             15 |             |              2 |
-|             26 |             |              0 |
-|             23 |             |              0 |
-|              7 | /           |              3 |
-|              6 | _           |              4 |
-|              9 | /           |              3 |
-|              3 | /           |              1 |
-|             11 |             |              0 |
-|              1 | /           |              3 |
-|             26 |             |              4 |
-|             25 | /           |              4 |
-|              5 | |           |              4 |
-|             16 | _           |              1 |
-|             11 | /           |              3 |
-|             21 | /           |              2 |
-|             20 |             |              5 |
-|             12 |             |              3 |
-|              5 | _           |              3 |
-|              2 |             |              1 |
-|              6 |             |              5 |
-|             26 |             |              2 |
-|              2 |             |              5 |
-|             16 |             |              5 |
-|             20 |             |              2 |
-|             15 |             |              4 |
-|             20 |             |              0 |
-|             27 | _           |              1 |
-|             12 | _           |              1 |
-|             10 | _           |              3 |
-|             26 | /           |              3 |
-|             12 |             |              2 |
-|             13 | /           |              1 |
-|             10 |             |              5 |
-|             11 |             |              5 |
-|             14 |             |              3 |
-|              9 |             |              5 |
-|             17 | _           |              1 |
-|             14 | /           |              2 |
-|             23 | _           |              1 |
-|             23 | /           |              2 |
-|             25 |             |              0 |
-|             14 |             |              5 |
-|             24 |             |              0 |
-|             14 | /           |              4 |
-|             22 |             |              0 |
-|             10 | _           |              1 |
-|             10 | ,           |              4 |
-|             21 |             |              3 |
-|              3 |             |              4 |
-|              4 |             |              4 |
-|              5 |             |              1 |
-|             17 |             |              3 |
-|              6 | _           |              0 |
-|              7 | |           |              1 |
-|              2 | /           |              4 |
-|              0 |             |              3 |
-|              7 |             |              0 |
-|              0 |             |              5 |
-|             27 |             |              5 |
-|             26 | _           |              1 |
-|              3 |             |              0 |
-|              2 |             |              3 |
-|              8 | _           |              4 |
-|              4 |             |              5 |
-|             21 |             |              5 |
-|             23 |             |              5 |
-|              2 | /           |              2 |
-|             23 | ,           |              4 |
-|              3 |             |              5 |
-|              0 |             |              1 |
-|              5 | |           |              2 |
-|             15 | /           |              1 |
-|             11 | _           |              4 |
-|             24 | _           |              4 |
-|              9 |             |              0 |
-|             16 |             |              0 |
-|              7 | \           |              4 |
-|             13 |             |              0 |
-|              1 |             |              1 |
-|              1 |             |              2 |
-|             17 |             |              0 |
-|             24 |             |              2 |
-|             16 |             |              4 |
-|             18 | _           |              2 |
-|             18 | /           |              3 |
-|             13 | /           |              3 |
-|             22 | /           |              3 |
-|              6 |             |              2 |
-|             25 |             |              1 |
-|             11 | _           |              1 |
-|             18 |             |              5 |
-|             24 | /           |              3 |
-|             23 | _           |              3 |
-|              9 | _           |              1 |
-|              4 | _           |              3 |
-|              4 | _           |              0 |
-|              1 | _           |              4 |
-|             22 |             |              2 |
-|              3 |             |              2 |
-|             18 |             |              0 |
-|             12 |             |              5 |
-|              2 |             |              0 |
-|             17 | /           |              4 |
-|             24 |             |              1 |
-|              8 |             |              0 |
-|             20 | \           |              4 |
-|             22 | )           |              1 |
-|             19 |             |              5 |
-|             17 |             |              5 |
-|             17 | _           |              2 |
-|             19 | _           |              1 |
-|             12 | /           |              4 |
-|             15 |             |              5 |
-|              0 | /           |              4 |
-|             15 | _           |              0 |
-|             27 |             |              3 |
-|              1 |             |              0 |
-|             19 |             |              0 |
-|             20 | (           |              1 |
+<table>
+<thead>
+<tr><th style="text-align: right;">  x-coordinate</th><th>Character  </th><th style="text-align: right;">  y-coordinate</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: right;">            33</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            10</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">             5</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">             5</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            44</td><td>+          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            13</td><td>:          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            44</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">             7</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            46</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            50</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            18</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            55</td><td>+          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            53</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            43</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            18</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">             0</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            55</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            49</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            37</td><td>+          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            16</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            42</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            34</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">             4</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            36</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            43</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            17</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            53</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">             5</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            38</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            40</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            36</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            44</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">             9</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            19</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            42</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            38</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            19</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            58</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            36</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            32</td><td>:          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">             1</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            53</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            33</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            20</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            52</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            28</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            51</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            48</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            54</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            57</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            51</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            14</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            16</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            32</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            56</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            17</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            23</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">             2</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            20</td><td>+          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            37</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            15</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            30</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            21</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            30</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            11</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            40</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            41</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            37</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            35</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            24</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">             0</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            46</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            25</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            26</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">             0</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">             9</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            11</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">             4</td><td>#          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            56</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            35</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            35</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            17</td><td>+          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            42</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            47</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            50</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            56</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">             2</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            44</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            29</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            32</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            36</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            38</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            40</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            40</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">             9</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">             2</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            44</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            14</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            49</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            42</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">             3</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            30</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            30</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            33</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            20</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            16</td><td>:          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            48</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            31</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            15</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">             8</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            47</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">             1</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            31</td><td>#          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            28</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            43</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            21</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            17</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            27</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            36</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            57</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">             0</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            48</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            20</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            16</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            23</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">             6</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            58</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            39</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            26</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            58</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            18</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            10</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            18</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            34</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            22</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            34</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            14</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            20</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            13</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            54</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            30</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">             3</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            56</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            38</td><td>#          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">             6</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            55</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            26</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            39</td><td>#          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            47</td><td>:          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">             4</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">             1</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            11</td><td>#          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            25</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            14</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            25</td><td>#          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            42</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            53</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">             4</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            45</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            18</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">             7</td><td>:          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            27</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">             4</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">             1</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            29</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            19</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            41</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            51</td><td>+          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            36</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">             5</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            52</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            22</td><td>:          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            54</td><td>:          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            32</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            58</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            33</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            15</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            40</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">             6</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            55</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            46</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            55</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            13</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            31</td><td>#          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            51</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            46</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            39</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">             9</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            34</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            19</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            49</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            41</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">             6</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">             7</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            26</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            45</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            46</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">             0</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            49</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            27</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            57</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            30</td><td>+          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            56</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            25</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">             3</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            52</td><td>#          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            17</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">             6</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            12</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">             4</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            22</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            47</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">             7</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            34</td><td>+          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">             7</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            10</td><td>+          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            49</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            12</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            27</td><td>+          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            33</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            37</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            41</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            24</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">             1</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            52</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            57</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            15</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            23</td><td>:          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            34</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            43</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            50</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            21</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            56</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            32</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            47</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            29</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            28</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            31</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">             2</td><td>+          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            26</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            15</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            29</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            40</td><td>:          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            47</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            48</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            54</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            39</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            27</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            19</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            31</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            29</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            43</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            38</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            22</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            11</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            25</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            55</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            18</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">             1</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            37</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            42</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            23</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            24</td><td>#          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">             2</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            48</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            41</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">             0</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            43</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            25</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            35</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            46</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            50</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            51</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            28</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            43</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">             6</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            21</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            52</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            28</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            22</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            26</td><td>:          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            24</td><td>+          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            53</td><td>:          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            21</td><td>#          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            50</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            29</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            15</td><td>#          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            28</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            12</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            58</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">             8</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">             3</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            16</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            30</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            35</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            23</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            48</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            56</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            17</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">             3</td><td>#          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">             3</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            12</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            22</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            57</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            38</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            15</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            24</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            41</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            11</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            14</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            12</td><td>+          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">             8</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            10</td><td>#          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            53</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            46</td><td>#          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            35</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            29</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            47</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">             5</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            18</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            48</td><td>+          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">             5</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            58</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">             9</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            21</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            37</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            19</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            12</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            20</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            35</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            10</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            51</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            12</td><td>:          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            45</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            31</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            25</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            45</td><td>#          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            50</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            38</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">             9</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            19</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            24</td><td>#          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">             4</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">             7</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            44</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">             8</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">             2</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            33</td><td>:          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            16</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            13</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            57</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            40</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            16</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            17</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">             6</td><td>:          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            42</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            32</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            45</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            44</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">             1</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            23</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            13</td><td>+          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            31</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            27</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            33</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">             8</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            11</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            58</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            39</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            49</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            55</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">             2</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            50</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            37</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            26</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            11</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            20</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            45</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            54</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            57</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">             8</td><td>+          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            39</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            54</td><td>           </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            52</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            14</td><td>#          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">             9</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            52</td><td>           </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            13</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            49</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            51</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            22</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            54</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            36</td><td>           </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">             5</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            39</td><td>+          </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">            53</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            21</td><td>           </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            23</td><td>+          </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            10</td><td>+          </td><td style="text-align: right;">             4</td></tr>
+<tr><td style="text-align: right;">            24</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">             3</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">             0</td><td>           </td><td style="text-align: right;">             2</td></tr>
+<tr><td style="text-align: right;">             7</td><td>           </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            14</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            41</td><td>+          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            28</td><td>:          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">            27</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            13</td><td>:          </td><td style="text-align: right;">             1</td></tr>
+<tr><td style="text-align: right;">            34</td><td>#          </td><td style="text-align: right;">             6</td></tr>
+<tr><td style="text-align: right;">            32</td><td>           </td><td style="text-align: right;">             5</td></tr>
+<tr><td style="text-align: right;">            10</td><td>:          </td><td style="text-align: right;">             0</td></tr>
+<tr><td style="text-align: right;">            45</td><td>+          </td><td style="text-align: right;">             3</td></tr>
+<tr><td style="text-align: right;">             8</td><td>           </td><td style="text-align: right;">             0</td></tr>
+</tbody>
+</table>
