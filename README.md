@@ -9,6 +9,3 @@ GitHub Actions Workflow Permissions: If this error happens within a GitHub Actio
 Solution: Explicitly grant read and write permissions in your workflow file using the permissions block. For example:
 Alternatively, you can set the default permissions for the entire repository in Settings > Actions > General > Workflow permissions.
 
-pip install lxml
-pip install html5lib
-pip install markdown-it-py
