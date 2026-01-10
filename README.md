@@ -1,4 +1,4 @@
-# FinalProject2026
+# FinalProject26
 CS50 Final Project Repo
 
 **Setting up API or PAT for project:**
